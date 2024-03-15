@@ -1,0 +1,97 @@
+* {
+  background: blueviolet;
+  color: white;
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 46px;
+  border-radius: 47px;
+  background: blueviolet;
+  box-shadow: -1px -1px 15px 0px;
+}
+p {
+  margin-bottom: -1rem;
+  font-family: monospace;
+}
+/* Form Inputs */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 250px;
+  margin-bottom: -11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.fifthLabel {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fb17d5;
+  color: #fff;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.modal-body {
+  background-color: blueviolet;
+}
+.table {
+  background-color: blueviolet;
+}
+thead {
+  background-color: blueviolet;
+}
+tbody {
+  background-color: blueviolet;
+}
+/* Error Messages */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Success Message */
+.success-message {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Table */
+table {
+  width: 39rem;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
