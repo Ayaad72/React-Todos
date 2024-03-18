@@ -1,21 +1,38 @@
 * {
-  background: blueviolet;
-  color: white;
+  font-family: cursive;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
 }
+
 .form-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   margin-top: 46px;
   border-radius: 47px;
-  background: blueviolet;
   box-shadow: -1px -1px 15px 0px;
+  background-color: gray;
+}
+.form-container:hover {
+  background-color: cadetblue;
+  transition: 1.6s;
+}
+.password-input {
+  position: relative;
+}
+.passwordii {
+  margin-left: 57px;
+}
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 p {
   margin-bottom: -1rem;
-  font-family: monospace;
 }
-/* Form Inputs */
 label {
   display: block;
   margin-bottom: 10px;
@@ -27,9 +44,21 @@ textarea,
 select {
   width: 250px;
   margin-bottom: -11px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+}
+input:hover {
+  box-shadow: 1px 3px 4px 1px rgb(12, 68, 90);
+  color: brown;
+  transition: 1s;
+}
+textarea:hover {
+  box-shadow: 1px 3px 4px 1px rgb(12, 68, 90);
+  color: brown;
+  transition: 1s;
 }
 .fifthLabel {
   display: flex;
@@ -37,21 +66,23 @@ select {
   padding: 4px;
 }
 input[type="checkbox"] {
-  margin-right: 5px;
+  margin-right: 29px;
 }
 button[type="submit"] {
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #fb17d5;
-  color: #fff;
+  border-radius: 10px;
+  color: #000000;
   cursor: pointer;
+  border: none;
 }
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  box-shadow: inset 8px 35px 8px 8px #ffeb3b;
+  transition: 1s;
 }
-.modal-body {
-  background-color: blueviolet;
+.alert-danger {
+  width: 21rem;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 .table {
   background-color: blueviolet;
@@ -62,27 +93,16 @@ thead {
 tbody {
   background-color: blueviolet;
 }
-/* Error Messages */
 .error {
   color: red;
   font-size: 14px;
 }
 
-/* Success Message */
-.success-message {
-  color: green;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-/* Error Message */
 .error-message {
   color: red;
   font-size: 16px;
   margin-top: 10px;
 }
-
-/* Table */
 table {
   width: 39rem;
   border-collapse: collapse;
@@ -94,4 +114,8 @@ table th,
 table td {
   border: 1px solid #ccc;
   padding: 8px;
+}
+.genderBox {
+  display: flex;
+  justify-content: center;
 }
